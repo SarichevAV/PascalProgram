@@ -9,7 +9,7 @@ program Income;
           Summa: Real; { Сумма на которую начисляется доход }
         Procent: Real; { Процентная ставка %годовых }
             Day: Integer; { Время хранения }
-       DohodDay: Real; { Доход в }
+       DohodDay: Real; { Доход в день}
            Year: Real; { Дней в году }
           Dohod: Real; { Общий доход }
 
