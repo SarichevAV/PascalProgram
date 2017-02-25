@@ -3,7 +3,7 @@
  * User: andrej
  * Date: 25.02.17
  *)
-program p;
+program Income;
     uses crt;
     var
           Summa: Real; { Сумма на которую начисляется доход }
@@ -24,7 +24,7 @@ program p;
         DohodDay := Procent / (Year * 100);
 
         { Величина дохода }
-         Dohod := Day * DohodDay;
+        Dohod := Summa * Day * DohodDay;
 
-        WriteLn('Величина дохода составляет ', DohodDay:6:3, 'руб.');
-    end.
+        WriteLn('Величина дохода составляет ', Dohod:6:2, 'руб.');
+    end. { Конец программы }
